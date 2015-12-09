@@ -2,6 +2,8 @@
 compute the CRC for an array of numbers
 
 Usage:
+```java
     int[] b = {0x34, 0x11, 0x50, 0x11, 0x07, 0x13, 0xff, 0xeb, 0x11, 0x11, 0x11, 0x01, 0x00, 0x01};
     int answer = ComputeCRC.computeCRC(b);
     System.out.println(Integer.toHexString(answer));
+```
